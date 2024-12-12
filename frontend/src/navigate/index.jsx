@@ -1,10 +1,10 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import {header} from "../component/header";
+import {Header} from "../component/Header";
 
 const navigate=() => {
     return(
         <BrowserRouter>
-        <header/>
+        <Header/>
 
         <Routes>
            <Route path="/"  element={<home/>}/>
