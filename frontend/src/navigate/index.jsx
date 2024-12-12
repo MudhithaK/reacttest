@@ -5,6 +5,11 @@ const navigate=() => {
     return(
         <BrowserRouter>
         <header/>
+
+        <Routes>
+           <Route path="/"  element={<home/>}/>
+           
+        </Routes>
         </BrowserRouter>
 
     );
