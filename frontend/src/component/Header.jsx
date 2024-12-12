@@ -12,13 +12,15 @@ export const Header =() =>{
         </div>
 
         <div className="nev-menu-wrapper flex item-center justify-between space-x-10">
-            <div>Home</div>
-            <div>About</div>
+            
+            
+            <Link to="/">Home</Link>
+            <Link>About</Link>
         </div>
 
         <div className="flex items-center justify-center space-x-4">
             <div>Cart</div>
-            <div>Login</div>
+            <Link to="/login">Login</Link>
         </div>
 
     </div>
